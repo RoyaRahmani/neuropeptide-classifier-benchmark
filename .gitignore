@@ -1,0 +1,24 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large checkpoints and tensors
+checkpoints/*.pt
+*.pt
+*.npy
+*.safetensors
+
+# Large raw/processed datasets (keep sample files only)
+data/processed_tensors/
+*.tar.gz
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
